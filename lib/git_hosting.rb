@@ -716,6 +716,9 @@ module GitHosting
     		cur_keynames = active_keys.map{|key| "#{key.identifier}.pub"}
     
         (old_keynames - cur_keynames).each do |k|
+          if k.is_a?(String) 
+            k = [k]
+          end
           k.each do |keyname|
       	    filename = File.join(keydir,"#{keyname}")
       	    logger.warn "Removing gitolite key: #{keyname}"
