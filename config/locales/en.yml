@@ -1,19 +1,19 @@
 en:
   label_all_git: Automatically Initialize Git Repositories For New Projects 
-  label_delete_git_repositories: Delete Git Repository When Project Deleted<br/>(will be place in Recycle Bin)
+  label_delete_git_repositories: Delete Git Repository When Project Deleted (will be place in Recycle Bin)
   label_git_server: Gitolite Server Domain
   label_http_server: HTTP Server Domain (for git http urls)
   label_git_user: Git Username
   label_gitolite_identity_public_key_file: Gitolite SSH Identity File (Public Key)
   label_gitolite_identity_file: Gitolite SSH Identity File (Private Key)
-  label_git_repository_base_path: Git Repository Base Path<br/>(Relative to git user home)
-  label_git_recycle_base_path: Git Recycle Bin Base Path <br/>(Relative to git user home)
-  label_git_recycle_expire_time: Expire Time for Repositories in Recycle Bin <br/>(in hours)
-  label_git_lock_wait_time: Synchronization Lock Wait Time <br/>(in seconds)
+  label_git_repository_base_path: Git Repository Base Path (Relative to git user home)
+  label_git_recycle_base_path: Git Recycle Bin Base Path  (Relative to git user home)
+  label_git_recycle_expire_time: Expire Time for Repositories in Recycle Bin  (in hours)
+  label_git_lock_wait_time: Synchronization Lock Wait Time  (in seconds)
   label_cannot_change_selinux: Cannot Change in Current Configuration
-  label_http_server_subdir: Subdirectory for HTTP access<br/>(Relative to Redmine Root)
-  label_git_redmine_subdir: Subdirectory for Redmine-managed Repos<br/>(Relative to Git Repository Base Path)
-  label_git_repository_hierarchy: Directory and URL Structure for<br/>Redmine-managed Repositories
+  label_http_server_subdir: Subdirectory for HTTP access (Relative to Redmine Root)
+  label_git_redmine_subdir: Subdirectory for Redmine-managed Repos (Relative to Git Repository Base Path)
+  label_git_repository_hierarchy: Directory and URL Structure for Redmine-managed Repositories
   label_basic_settings: Basic Settings
   label_gitolite_access_URLs: Gitolite Access URL Settings
   label_gitolite_repository_settings: Gitolite Repository Settings
@@ -90,7 +90,7 @@ en:
   label_update_all_hooks: Update ALL repositories hook settings
 
   field_private_key: Private Key
-  field_private_key_warning: "Do not use your own Private Key!<br/>Please generate a new one and upload it to the mirror server."
+  field_private_key_warning: "Do not use your own Private Key! Please generate a new one and upload it to the mirror server."
   label_mirror_create: Create Repository Mirror
   label_mirror_delete: Delete Repository Mirror
   label_mirror_edit: Edit Repository Mirror
@@ -133,7 +133,7 @@ en:
   mirror_push_sucess: Success.
   mirror_push_fail: Failed!
 
-  display_access_setup: Assume that <em>project1</em> is a parent of <em>project2</em>, and <em>project2</em> is a parent of <em>project3</em>. Given the current configuration, <em>project3</em>'s repository has the following properties
-  display_access_emphasis: In the above patterns, <em>emphasized</em> components represent context-dependent elements. 
-  display_access_hierarchical: Parent projects are included in the URLs, since the repository is in <em>Hierarchical</em> mode.
-  display_access_flat: Parent projects are not included in the URLs, since the repository is in <em>Flat</em> mode.
+  display_access_setup: Assume that  *project1 * is a parent of  *project2*, and  *project2 * is a parent of  *project3*. Given the current configuration,  *project3 *'s repository has the following properties
+  display_access_emphasis: In the above patterns,  *emphasized * components represent context-dependent elements. 
+  display_access_hierarchical: Parent projects are included in the URLs, since the repository is in  *Hierarchical* mode.
+  display_access_flat: Parent projects are not included in the URLs, since the repository is in  *Flat* mode.
