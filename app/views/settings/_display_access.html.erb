@@ -3,7 +3,7 @@
 	<%= l(:display_access_setup) %>:
 	<p>
 		<label>Repo Storage:</label>
-		<%= "~#{@settings['gitUser']}/#{@settings['gitRepositoryBasePath']}#{@settings['gitRedmineSubdir']}"%><em><%="#{(GitHosting.repository_hierarchy)?'project1/project2/':''}project3.git%"%></em>
+		<%= "~#{@settings['gitUser']}/#{@settings['gitRepositoryBasePath']}#{@settings['gitRedmineSubdir']}"%><em><%="#{(GitHosting.repository_hierarchy)?'project1/project2/':''}project3.git"%></em>
 		%>
 		<br/>
 		<label><%= l(:label_ssh_access)%>:</label>
